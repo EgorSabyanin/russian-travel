@@ -7,6 +7,11 @@
   --asphalt: #2a2c2f;
 
   /*
+  * Анимации
+  */
+  --linkTransition: 300ms;
+
+  /*
   * Размеры экранов
   */
   --phoneDevice: 320px;

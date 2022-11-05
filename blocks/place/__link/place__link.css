@@ -8,5 +8,11 @@
 
   text-decoration-line: underline;
 
+  transition: all var(--linkTransition);
+
   color: var(--white);
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
