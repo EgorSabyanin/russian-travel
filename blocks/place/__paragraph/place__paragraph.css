@@ -1,0 +1,16 @@
+.place__paragraph {
+  margin: unset;
+  margin-bottom: 25px;
+  padding: unset;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+
+  color: var(--white);
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: unset;
+}
