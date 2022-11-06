@@ -6,7 +6,13 @@
   font-weight: 900;
   color: var(--white);
   text-align: center;
+
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 320px) {

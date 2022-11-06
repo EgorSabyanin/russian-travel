@@ -5,12 +5,40 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
 
   color: var(--white);
 }
 
 .place__paragraph:last-of-type {
   margin-bottom: unset;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+  }
 }
