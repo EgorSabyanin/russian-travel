@@ -18,3 +18,25 @@
     margin-bottom: unset;
   }
 }
+
+@media screen and (min-width: 320px) {
+  .footer__item {
+    margin-right: unset;
+    margin-bottom: 32px;
+  }
+
+  .footer__item:last-of-type {
+    margin-bottom: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__item {
+    margin-right: 18px;
+    margin-bottom: unset;
+  }
+
+  .footer__item:last-of-type {
+    margin-right: unset;
+  }
+}
