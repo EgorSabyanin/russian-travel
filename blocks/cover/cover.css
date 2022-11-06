@@ -4,6 +4,7 @@
   margin-top: 92px;
   background: url(../../images/cover-trains.jpg);
   background-size: cover;
+  height: 0;
 }
 
 .cover::before {
