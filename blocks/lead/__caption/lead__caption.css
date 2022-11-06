@@ -1,4 +1,6 @@
 .lead__caption {
+  margin: unset;
+  padding: unset;
   margin-top: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -10,4 +12,10 @@
   text-transform: uppercase;
 
   color: var(--white);
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

@@ -1,7 +1,7 @@
 .lead__subtitle {
-  margin: 0;
+  margin: unset;
   margin-top: 32px;
-  padding: 0;
+  padding: unset;
 
   font-family: "Inter";
   font-style: normal;
@@ -19,12 +19,5 @@
     margin-top: 16px;
     font-size: 16px;
     line-height: 20px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    font-size: 30px;
-    line-height: 36px;
   }
 }
