@@ -1,5 +1,5 @@
 .cover__subtitle {
-  z-index: 2;
+  z-index: inherit;
   max-width: 360px;
   margin: 0 auto;
   margin-top: 32px;

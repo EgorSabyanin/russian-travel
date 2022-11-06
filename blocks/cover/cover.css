@@ -1,9 +1,5 @@
 .cover {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   margin: 0 auto;
   margin-top: 92px;
   background: url(../../images/cover-trains.jpg);
@@ -30,7 +26,7 @@
   .cover {
     margin-top: 66px;
     max-width: 100%;
-    height: 200px;
+    min-height: 200px;
   }
 }
 
@@ -38,7 +34,7 @@
   .cover {
     margin-top: 66px;
     max-width: 100%;
-    height: 200px;
+    min-height: 200px;
   }
 }
 
