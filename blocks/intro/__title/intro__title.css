@@ -15,17 +15,17 @@
   color: var(--white);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 495px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 496px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 38px;
+    line-height: 42px;
   }
 }
 
