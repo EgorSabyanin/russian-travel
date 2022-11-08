@@ -4,12 +4,6 @@
   padding: unset;
 }
 
-@media screen and (max-width: 320px) {
-  .lead__picture {
-    margin-top: 40px;
-  }
-}
-
 @media screen and (min-width: 320px) {
   .lead__picture {
     margin-top: 40px;

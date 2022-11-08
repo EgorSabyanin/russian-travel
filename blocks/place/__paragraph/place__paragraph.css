@@ -14,14 +14,7 @@
   margin-bottom: unset;
 }
 
-@media screen and (max-width: 495px) {
-  .place__paragraph {
-    margin-right: 16px;
-    margin-left: 16px;
-  }
-}
-
-@media screen and (min-width: 496px) {
+@media screen and (min-width: 320px) {
   .place__paragraph {
     margin-right: 16px;
     margin-left: 16px;

@@ -8,18 +8,7 @@
   margin-right: unset;
 }
 
-@media screen and (max-width: 495px) {
-  .footer__item {
-    margin-right: unset;
-    margin-bottom: 32px;
-  }
-
-  .footer__item:last-of-type {
-    margin-bottom: unset;
-  }
-}
-
-@media screen and (min-width: 496px) {
+@media screen and (min-width: 320px) {
   .footer__item {
     margin-right: unset;
     margin-bottom: 32px;

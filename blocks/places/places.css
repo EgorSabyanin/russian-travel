@@ -2,15 +2,8 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (min-width: 320px) {
   .places {
-    margin-top: 64px;
-  }
-}
-
-@media screen and (min-width: 496px) {
-  .places {
-    max-width: 100%;
     margin-top: 64px;
   }
 }
